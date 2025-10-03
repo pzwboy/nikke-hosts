@@ -44,7 +44,7 @@ export default function Home() {
       <div style={styles.background}></div>
       <div style={styles.content}>
         <h1 style={styles.title}>NIKKE服务器可用IP获取</h1>
-        <p style={styles.subtitle}>获取登录网游《胜利女神：妮姬》可用IP并生成Hosts</p>
+        <p style={styles.subtitle}>获取《胜利女神：妮姬》可用登录IP并生成Hosts</p>
         
         {updateTime && (
           <div style={styles.updateTime}>
@@ -91,7 +91,7 @@ const styles = {
     left: 0,
     width: '100%',
     height: '100%',
-    backgroundImage: 'url("https://pzwboy.top/image/snow_white_c.png")',
+    backgroundImage: 'url("/snow_white_c.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
