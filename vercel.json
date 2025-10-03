@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "app/api/ip/route.js": {
+      "maxDuration": 30
+    },
+    "app/api/ip/update/route.js": {
+      "maxDuration": 30
+    }
+  }
+}
