@@ -96,7 +96,7 @@ const styles = {
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundAttachment: 'fixed',
-    filter: 'brightness(0.3)',
+    filter: 'brightness(0.8)', // brightness(0.3)
     zIndex: -1
   },
   content: {
@@ -131,10 +131,10 @@ const styles = {
     marginBottom: '30px',
     color: '#e0e0e0',
     fontSize: '1.1rem',
-    backgroundColor: 'rgba(0, 112, 243, 0.3)',
+//    backgroundColor: 'rgba(0, 112, 243, 0.3)',
     padding: '15px',
     borderRadius: '10px',
-    backdropFilter: 'blur(10px)'
+//    backdropFilter: 'blur(10px)'
   },
   ipList: {
     marginBottom: '40px'
@@ -145,7 +145,7 @@ const styles = {
     border: '1px solid rgba(255,255,255,0.2)',
     borderRadius: '10px',
     backgroundColor: 'rgba(255,255,255,0.1)',
-    backdropFilter: 'blur(10px)',
+    backdropFilter: 'blur(5px)', // blur(10px)
     transition: 'transform 0.3s ease, box-shadow 0.3s ease'
   },
   domain: {
