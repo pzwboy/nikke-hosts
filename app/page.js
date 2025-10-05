@@ -134,7 +134,8 @@ const styles = {
 //    backgroundColor: 'rgba(0, 112, 243, 0.3)',
     padding: '15px',
     borderRadius: '10px',
-//    backdropFilter: 'blur(10px)'
+//    backdropFilter: 'blur(10px)',
+    textShadow: '1px 1px 2px rgba(0,0,0,0.5)' //用子标题文字阴影
   },
   ipList: {
     marginBottom: '40px'
