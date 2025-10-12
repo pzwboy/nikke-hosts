@@ -72,7 +72,7 @@ export default function Home() {
         </div>
 
         <div style={styles.footer}>
-          © 2021-2025 Pzwboy.
+          © 2025 Pzwboy.
         </div>
       </div>
     </div>
